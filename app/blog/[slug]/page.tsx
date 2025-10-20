@@ -5,7 +5,7 @@ import Link from "next/link"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import WhatsAppButton from "@/components/whatsapp-button"
-import { useState } from "react"
+import { useState, use } from "react"
 
 const blogPosts = {
   en: {
@@ -50,12 +50,16 @@ const blogPosts = {
   },
 }
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
+export default function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const searchParams = useSearchParams()
   const language = (searchParams.get("lang") as "en" | "ar") || "en"
   const [currentLanguage, setCurrentLanguage] = useState<"en" | "ar">(language)
+  
+  // Unwrap the params Promise using React.use()
+  const unwrappedParams = use(params)
+  const slug = unwrappedParams.slug
 
-  const post = blogPosts[currentLanguage]?.[params.slug as keyof typeof blogPosts.en]
+  const post = blogPosts[currentLanguage]?.[slug as keyof typeof blogPosts.en]
 
   if (!post) {
     return (
@@ -89,7 +93,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
 
           {/* Featured image */}
           <img
-            src={`/blog-.jpg?height=400&width=800&query=blog-${params.slug}`}
+            src={`/blog-.jpg?height=400&width=800&query=blog-${slug}`}
             alt={post.title}
             className="w-full h-96 object-cover rounded-lg mb-8"
           />
@@ -116,12 +120,12 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               {Object.entries(blogPosts[currentLanguage])
-                .filter(([slug]) => slug !== params.slug)
+                .filter(([relatedSlug]) => relatedSlug !== slug)
                 .slice(0, 2)
-                .map(([slug, relatedPost]) => (
+                .map(([relatedSlug, relatedPost]) => (
                   <Link
-                    key={slug}
-                    href={`/blog/${slug}?lang=${currentLanguage}`}
+                    key={relatedSlug}
+                    href={`/blog/${relatedSlug}?lang=${currentLanguage}`}
                     className="p-4 border border-muted rounded-lg hover:shadow-md transition"
                   >
                     <h3 className="font-bold text-foreground mb-2">{relatedPost.title}</h3>
