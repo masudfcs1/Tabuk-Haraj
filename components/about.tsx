@@ -27,7 +27,7 @@ export default function About({ language }: AboutProps) {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <img src="/furniture-showroom.jpg" alt="Showroom" className="rounded-lg shadow-lg" />
+            <img src="/valuable-old-furniture.webp" alt="Showroom" className="rounded-lg shadow-lg" />
           </div>
           <div>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">{t.description}</p>
