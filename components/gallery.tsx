@@ -28,7 +28,7 @@ const furnitureImages = [
   {
     id: 3,
     query: "office",
-    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9TstRnRYUiGgkcZLuFWo4yWYBEYonM1Ks3Q&s",
+    imageUrl: "https://cpimg.tistatic.com/09203449/b/4/Used-Second-Hand-Deep-Freezer-Near-Delhi.jpg",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const furnitureImages = [
   {
     id: 6,
     query: "dining",
-    imageUrl: "https://frequip.com/wp-content/uploads/2024/03/Shahberi-Furniture-Market-2.jpg",
+    imageUrl: "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2014/04/electronicsthriftstore.jpg",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const furnitureImages = [
   {
     id: 8,
     query: "desk",
-    imageUrl: "https://www.doodledash.co.uk/cdn/shop/articles/424897562_831709968970164_671874420631076093_n_1080x.jpg?v=1706983772",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtskJGufEfwRgkjIMC7bZZxr0YQqU2CJFmjXHKtF1_IyNpPR4zSo_EK7uGckxx_YIR2Hc&usqp=CAU",
   },
 ];
 
