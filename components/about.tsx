@@ -6,7 +6,7 @@ const translations = {
   en: {
     title: "About Tabuk Haraj",
     description:
-      "Welcome to Tabuk Haraj, your specialized company for buying and selling used electronics. We are one of the most important and best stores and showrooms for buying and selling home and office electronics, electrical appliances, used air conditioners, sofas, and majlis electronics in Tabuk.",
+      "Welcome to Tabuk Haraj, your specialized company for buying and selling used electronics. We are one of the most important and best stores and showrooms for buying and selling home and office electronics, electrical appliances, used air conditioners, and majlis electronics in Tabuk.",
     features: ["Best Prices", "Quality Assurance", "Fast Service", "Professional Team"],
   },
   ar: {

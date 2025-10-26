@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 interface VideosProps {
   language: "en" | "ar"
 }
@@ -5,54 +7,117 @@ interface VideosProps {
 const translations = {
   en: {
     title: "Video Showcase",
-    description: "Watch our latest electronics collections and customer testimonials",
+    description: "Watch our classic electronics collections and customer testimonials",
+    close: "Close"
   },
   ar: {
     title: "عرض الفيديوهات",
-    description: "شاهد مجموعاتنا الأخيرة وشهادات العملاء",
+    description: "شاهد مجموعاتنا الكلاسيكية وشهادات العملاء",
+    close: "إغلاق"
   },
 }
 
 export default function Videos({ language }: VideosProps) {
   const t = translations[language]
+  const [selectedVideo, setSelectedVideo] = useState<string | null>(null)
+  const [selectedTitle, setSelectedTitle] = useState<string>("")
+  
   const videos = [
-    { id: 1, title: language === "en" ? "Showroom Tour" : "جولة المعرض" },
-    { id: 2, title: language === "en" ? "Customer Review" : "تقييم العميل" },
-    { id: 3, title: language === "en" ? "New Collection" : "المجموعة الجديدة" },
-    { id: 4, title: language === "en" ? "Delivery Service" : "خدمة التوصيل" },
+    { 
+      id: 1, 
+      title: language === "en" ? "Vintage AC Collection" : "مجموعة المكيفات القديمة",
+     videoSrc: "/video-1.mp4",    },
+    { 
+      id: 2, 
+      title: language === "en" ? "Classic Electronics Tour" : "جولة الأجهزة الكلاسيكية",
+     videoSrc: "/video-2.mp4",  
+    },
+    { 
+      id: 3, 
+      title: language === "en" ? "Retro AC Restoration" : "ترميم المكيفات القديمة",
+      videoSrc: "/video-3.mp4",  
+    },
+    // { 
+    //   id: 4, 
+    //   title: language === "en" ? "Vintage Cooling Systems" : "أنظمة التبريد القديمة",
+    //   videoSrc: "/video-1.mp4",  
+    // },
   ]
 
-  return (
-    <section id="videos" className="py-20 bg-muted">
-      <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-4 text-foreground">{t.title}</h2>
-        <p className="text-center text-muted-foreground mb-12">{t.description}</p>
+  const openVideo = (videoSrc: string, title: string) => {
+    setSelectedVideo(videoSrc)
+    setSelectedTitle(title)
+  }
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {videos.map((video) => (
-            <div
-              key={video.id}
-              className="relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition group cursor-pointer bg-black h-80"
-            >
-              <img
-                src={`/electronics-video-.jpg?height=400&width=600&query=electronics-video-${video.id}`}
-                alt={video.title}
-                className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition"
-              />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center group-hover:scale-110 transition">
-                  <svg className="w-8 h-8 text-primary-foreground" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
-                  </svg>
+  const closeVideo = () => {
+    setSelectedVideo(null)
+    setSelectedTitle("")
+  }
+
+  return (
+    <>
+      <section id="videos" className="py-20 bg-muted">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-4 text-foreground">{t.title}</h2>
+          <p className="text-center text-muted-foreground mb-12">{t.description}</p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {videos.map((video) => (
+              <div
+                key={video.id}
+                onClick={() => openVideo(video.videoSrc, video.title)}
+                className="relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition group cursor-pointer bg-gradient-to-br from-gray-800 to-gray-900 h-80 flex items-center justify-center"
+              >
+                {/* Play Button Container */}
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center group-hover:scale-110 transition-transform mx-auto mb-4">
+                    <svg className="w-10 h-10 text-primary-foreground ml-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
+                    </svg>
+                  </div>
+                  <p className="text-white font-semibold text-lg">{video.title}</p>
+                  <p className="text-gray-400 text-sm mt-2">
+                    {language === "en" ? "Click to play" : "انقر للتشغيل"}
+                  </p>
                 </div>
               </div>
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
-                <p className="text-white font-semibold">{video.title}</p>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      {/* Video Modal */}
+      {selectedVideo && (
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-4"
+          onClick={closeVideo}
+        >
+          <div 
+            className="bg-black rounded-lg max-w-4xl w-full max-h-[90vh] overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex justify-between items-center p-4 border-b border-gray-700">
+              <h3 className="text-xl font-semibold text-white">{selectedTitle}</h3>
+              <button
+                onClick={closeVideo}
+                className="text-gray-400 hover:text-white text-2xl font-bold w-10 h-10 flex items-center justify-center hover:bg-gray-800 rounded-full transition"
+              >
+                ×
+              </button>
+            </div>
+            <div className="p-2">
+              <video 
+                controls 
+                autoPlay 
+                className="w-full h-auto max-h-[70vh] rounded"
+                src={selectedVideo}
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   )
 }

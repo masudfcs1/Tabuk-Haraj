@@ -43,7 +43,7 @@ const electronicsImages = [
   {
     id: 6,
     query: "dining",
-    imageUrl: "https://frequip.com/wp-content/uploads/2024/03/Shahberi-Furniture-Market-2.jpg",
+    imageUrl: "https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2022/10/16/3492956-1509191747.jpg?itok=7kb255lV",
   },
   {
     id: 7,
