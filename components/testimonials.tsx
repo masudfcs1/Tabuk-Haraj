@@ -13,12 +13,12 @@ const translations = {
       },
       {
         name: "Fatima Al-Shammari",
-        text: "Very professional team. They helped me sell my furniture quickly.",
+        text: "Very professional team. They helped me sell my electronics quickly.",
         rating: 5,
       },
       {
         name: "Mohammed Al-Dosari",
-        text: "Great quality furniture at affordable prices. Will buy again!",
+        text: "Great quality electronics at affordable prices. Will buy again!",
         rating: 5,
       },
     ],

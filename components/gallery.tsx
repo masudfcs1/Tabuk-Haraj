@@ -5,7 +5,7 @@ interface GalleryProps {
 const translations = {
   en: {
     title: "Our Gallery",
-    description: "Browse our collection of quality used furniture",
+    description: "Browse our collection of quality used electronics",
   },
   ar: {
     title: "معرضنا",
@@ -13,8 +13,8 @@ const translations = {
   },
 };
 
-// Static array of furniture images with real placeholder URLs
-const furnitureImages = [
+// Static array of electronics images with real placeholder URLs
+const electronicsImages = [
   {
     id: 1,
     query: "bedroom",
@@ -43,7 +43,7 @@ const furnitureImages = [
   {
     id: 6,
     query: "dining",
-    imageUrl: "https://frequip.com/wp-content/uploads/2024/03/Shahberi-Furniture-Market-2.jpg",
+    imageUrl: "https://frequip.com/wp-content/uploads/2024/03/Shahberi-electronics-Market-2.jpg",
   },
   {
     id: 7,
@@ -71,14 +71,14 @@ export default function Gallery({ language }: GalleryProps) {
         </p>
 
         <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-4">
-          {furnitureImages.map((image) => (
+          {electronicsImages.map((image) => (
             <div
               key={image.id}
               className="relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition group cursor-pointer h-64"
             >
               <img
                 src={image.imageUrl}
-                alt={`Used ${image.query} furniture`}
+                alt={`Used ${image.query} electronics`}
                 className="w-full h-full object-cover group-hover:scale-110 transition duration-300"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition" />

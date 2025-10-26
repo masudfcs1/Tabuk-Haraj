@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Tabuk Haraj - شراء وبيع الأثاث المستعمل",
-  description: "شركة متخصصة في شراء وبيع الأثاث المستعمل بتبوك | Buy and Sell Used Furniture in Tabuk",
+  description: "شركة متخصصة في شراء وبيع الأثاث المستعمل بتبوك | Buy and Sell Used electronics in Tabuk",
   generator: "v0.app",
 }
 

@@ -7,13 +7,13 @@ const translations = {
     title: "Our Services",
     services: [
       {
-        title: "Buy Used Furniture",
-        description: "We buy all types of used furniture at the best prices",
+        title: "Buy Used electronics",
+        description: "We buy all types of used electronics at the best prices",
         icon: "🛋️",
       },
       {
-        title: "Sell Used Furniture",
-        description: "Sell your furniture quickly and easily with us",
+        title: "Sell Used electronics",
+        description: "Sell your electronics quickly and easily with us",
         icon: "💰",
       },
       {
@@ -27,8 +27,8 @@ const translations = {
         icon: "❄️",
       },
       {
-        title: "Office Furniture",
-        description: "Complete office furniture solutions",
+        title: "Office electronics",
+        description: "Complete office electronics solutions",
         icon: "🏢",
       },
       {

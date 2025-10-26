@@ -4,8 +4,8 @@ interface HeroProps {
 
 const translations = {
   en: {
-    title: "Buy & Sell Used Furniture in Tabuk",
-    subtitle: "Your trusted partner for quality used furniture, appliances, and home goods",
+    title: "Buy & Sell Used electronics in Tabuk",
+    subtitle: "Your trusted partner for quality used electronics, appliances, and home goods",
     cta: "Get Started",
   },
   ar: {
@@ -27,7 +27,7 @@ export default function Hero({ language }: HeroProps) {
       <div
         className="absolute inset-0 bg-cover bg-center opacity-20"
         style={{
-          backgroundImage: "url(/placeholder.svg?height=1080&width=1920&query=furniture-store)",
+          backgroundImage: "url(/placeholder.svg?height=1080&width=1920&query=electronics-store)",
         }}
       />
 

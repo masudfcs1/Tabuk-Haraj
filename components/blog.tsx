@@ -11,12 +11,12 @@ const translations = {
     title: "Latest Blog Posts",
     posts: [
       {
-        id: "buy-used-furniture-safely",
-        title: "How to Buy Used Furniture Safely",
-        excerpt: "Tips and tricks for purchasing quality used furniture...",
+        id: "buy-used-electronics-safely",
+        title: "How to Buy Used electronics Safely",
+        excerpt: "Tips and tricks for purchasing quality used electronics...",
         date: "Oct 15, 2024",
         content:
-          "When buying used furniture, it's important to inspect items carefully for damage, wear, and structural integrity. Look for signs of bed bugs, water damage, and stains. Always test drawers, hinges, and moving parts. Negotiate prices fairly and ask about the furniture's history. Consider delivery options and return policies. Buy from reputable sellers with good reviews. Check for any recalls on specific furniture items. Take measurements to ensure the furniture fits your space. Ask about the original purchase date and warranty information.",
+          "When buying used electronics, it's important to inspect items carefully for damage, wear, and structural integrity. Look for signs of bed bugs, water damage, and stains. Always test drawers, hinges, and moving parts. Negotiate prices fairly and ask about the electronics's history. Consider delivery options and return policies. Buy from reputable sellers with good reviews. Check for any recalls on specific electronics items. Take measurements to ensure the electronics fits your space. Ask about the original purchase date and warranty information.",
       },
       {
         id: "best-prices-used-ac-units",
@@ -27,12 +27,12 @@ const translations = {
           "Used air conditioning units can save you significant money while still providing excellent cooling performance. When shopping for used AC units, check the cooling capacity (BTU rating) to match your room size. Verify that the unit is in working condition and has been properly maintained. Look for units from reputable brands known for durability. Compare prices across multiple sellers to find the best deals. Consider the age of the unit and remaining lifespan. Check if the unit includes installation support. Ask about warranty coverage and return policies. Energy efficiency ratings are important for long-term savings.",
       },
       {
-        id: "furniture-care-guide",
-        title: "Furniture Care Guide",
-        excerpt: "Learn how to maintain your used furniture properly...",
+        id: "electronics-care-guide",
+        title: "electronics Care Guide",
+        excerpt: "Learn how to maintain your used electronics properly...",
         date: "Oct 5, 2024",
         content:
-          "Proper maintenance extends the life of your used furniture significantly. Dust regularly with a soft cloth to prevent buildup. Use appropriate cleaners for different materials - wood, leather, fabric, and metal each require specific care. Avoid direct sunlight to prevent fading and damage. Keep furniture away from heat sources and moisture. Rotate cushions regularly for even wear. Repair small issues immediately to prevent larger problems. Use protective covers for high-traffic areas. Clean spills immediately to prevent staining. Store furniture properly if not in use. Consider professional cleaning for valuable pieces.",
+          "Proper maintenance extends the life of your used electronics significantly. Dust regularly with a soft cloth to prevent buildup. Use appropriate cleaners for different materials - wood, leather, fabric, and metal each require specific care. Avoid direct sunlight to prevent fading and damage. Keep electronics away from heat sources and moisture. Rotate cushions regularly for even wear. Repair small issues immediately to prevent larger problems. Use protective covers for high-traffic areas. Clean spills immediately to prevent staining. Store electronics properly if not in use. Consider professional cleaning for valuable pieces.",
       },
     ],
   },
@@ -40,7 +40,7 @@ const translations = {
     title: "أحدث المقالات",
     posts: [
       {
-        id: "buy-used-furniture-safely",
+        id: "buy-used-electronics-safely",
         title: "كيفية شراء الأثاث المستعمل بأمان",
         excerpt: "نصائح وحيل لشراء أثاث مستعمل عالي الجودة...",
         date: "15 أكتوبر 2024",
@@ -56,7 +56,7 @@ const translations = {
           "يمكن لوحدات تكييف الهواء المستعملة أن توفر لك أموالاً كبيرة مع توفير أداء تبريد ممتاز. عند التسوق لشراء وحدات تكييف مستعملة، تحقق من سعة التبريد (تصنيف BTU) لمطابقة حجم غرفتك. تحقق من أن الوحدة تعمل بشكل صحيح وتم صيانتها بشكل صحيح. ابحث عن وحدات من العلامات التجارية الموثوقة المعروفة بمتانتها. قارن الأسعار عبر عدة بائعين للعثور على أفضل العروض. فكر في عمر الوحدة والعمر الافتراضي المتبقي. تحقق مما إذا كانت الوحدة تتضمن دعم التثبيت. اسأل عن تغطية الضمان وسياسات الإرجاع. تصنيفات كفاءة الطاقة مهمة للتوفير على المدى الطويل.",
       },
       {
-        id: "furniture-care-guide",
+        id: "electronics-care-guide",
         title: "دليل العناية بالأثاث",
         excerpt: "تعلم كيفية الحفاظ على أثاثك المستعمل بشكل صحيح...",
         date: "5 أكتوبر 2024",
@@ -79,7 +79,7 @@ export default function Blog({ language }: BlogProps) {
           {t.posts.map((post) => (
             <article key={post.id} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
               <img
-                src={`/blog-furniture-.jpg?height=200&width=400&query=blog-furniture-${post.id}`}
+                src={`/blog-electronics-.jpg?height=200&width=400&query=blog-electronics-${post.id}`}
                 alt={post.title}
                 className="w-full h-48 object-cover rounded-md mb-4"
               />

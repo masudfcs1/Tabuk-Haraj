@@ -9,11 +9,11 @@ import { useState, use } from "react"
 
 const blogPosts = {
   en: {
-    "buy-used-furniture-safely": {
-      title: "How to Buy Used Furniture Safely",
+    "buy-used-electronics-safely": {
+      title: "How to Buy Used electronics Safely",
       date: "Oct 15, 2024",
       content:
-        "When buying used furniture, it's important to inspect items carefully for damage, wear, and structural integrity. Look for signs of bed bugs, water damage, and stains. Always test drawers, hinges, and moving parts. Negotiate prices fairly and ask about the furniture's history. Consider delivery options and return policies. Buy from reputable sellers with good reviews. Check for any recalls on specific furniture items. Take measurements to ensure the furniture fits your space. Ask about the original purchase date and warranty information.\n\nInspecting the furniture thoroughly before purchase is crucial. Check all joints and connections to ensure they are secure. Look for any signs of pest infestation or mold. Test all moving parts multiple times to ensure they work smoothly. Ask the seller about the furniture's age and any repairs that have been made.\n\nWhen negotiating, research similar items online to understand fair market prices. Don't hesitate to walk away if the price seems too high or the condition is poor. Always get a receipt with a description of the item and any agreed-upon terms. Consider having the furniture professionally inspected if it's a high-value piece.",
+        "When buying used electronics, it's important to inspect items carefully for damage, wear, and structural integrity. Look for signs of bed bugs, water damage, and stains. Always test drawers, hinges, and moving parts. Negotiate prices fairly and ask about the electronics's history. Consider delivery options and return policies. Buy from reputable sellers with good reviews. Check for any recalls on specific electronics items. Take measurements to ensure the electronics fits your space. Ask about the original purchase date and warranty information.\n\nInspecting the electronics thoroughly before purchase is crucial. Check all joints and connections to ensure they are secure. Look for any signs of pest infestation or mold. Test all moving parts multiple times to ensure they work smoothly. Ask the seller about the electronics's age and any repairs that have been made.\n\nWhen negotiating, research similar items online to understand fair market prices. Don't hesitate to walk away if the price seems too high or the condition is poor. Always get a receipt with a description of the item and any agreed-upon terms. Consider having the electronics professionally inspected if it's a high-value piece.",
     },
     "best-prices-used-ac-units": {
       title: "Best Prices for Used AC Units",
@@ -21,15 +21,15 @@ const blogPosts = {
       content:
         "Used air conditioning units can save you significant money while still providing excellent cooling performance. When shopping for used AC units, check the cooling capacity (BTU rating) to match your room size. Verify that the unit is in working condition and has been properly maintained. Look for units from reputable brands known for durability. Compare prices across multiple sellers to find the best deals. Consider the age of the unit and remaining lifespan. Check if the unit includes installation support. Ask about warranty coverage and return policies. Energy efficiency ratings are important for long-term savings.\n\nUnderstanding BTU ratings is essential for choosing the right AC unit. A general rule is to have 20 BTU per square foot of space. For a 300 square foot room, you would need approximately 6,000 BTU. However, factors like ceiling height, insulation, and sun exposure can affect this calculation.\n\nWhen evaluating used units, ask about the maintenance history. Units that have been regularly serviced tend to last longer and perform better. Check if the refrigerant is still at proper levels. Ask about the age of the compressor, as this is the most expensive component to replace. Consider buying from sellers who offer some form of warranty or guarantee.",
     },
-    "furniture-care-guide": {
-      title: "Furniture Care Guide",
+    "electronics-care-guide": {
+      title: "electronics Care Guide",
       date: "Oct 5, 2024",
       content:
-        "Proper maintenance extends the life of your used furniture significantly. Dust regularly with a soft cloth to prevent buildup. Use appropriate cleaners for different materials - wood, leather, fabric, and metal each require specific care. Avoid direct sunlight to prevent fading and damage. Keep furniture away from heat sources and moisture. Rotate cushions regularly for even wear. Repair small issues immediately to prevent larger problems. Use protective covers for high-traffic areas. Clean spills immediately to prevent staining. Store furniture properly if not in use. Consider professional cleaning for valuable pieces.\n\nFor wooden furniture, use a soft, damp cloth to dust and a wood-specific cleaner for deeper cleaning. Avoid excessive water as it can damage the wood. Polish wooden furniture occasionally to maintain its shine and protect the surface. For leather furniture, use a leather conditioner to keep it supple and prevent cracking.\n\nFabric furniture requires regular vacuuming to remove dust and debris. For stains, act quickly and use appropriate fabric cleaners. Test any cleaner on a hidden area first to ensure it doesn't damage the fabric. Metal furniture should be wiped down regularly and checked for rust. Apply a protective coating if rust appears.",
+        "Proper maintenance extends the life of your used electronics significantly. Dust regularly with a soft cloth to prevent buildup. Use appropriate cleaners for different materials - wood, leather, fabric, and metal each require specific care. Avoid direct sunlight to prevent fading and damage. Keep electronics away from heat sources and moisture. Rotate cushions regularly for even wear. Repair small issues immediately to prevent larger problems. Use protective covers for high-traffic areas. Clean spills immediately to prevent staining. Store electronics properly if not in use. Consider professional cleaning for valuable pieces.\n\nFor wooden electronics, use a soft, damp cloth to dust and a wood-specific cleaner for deeper cleaning. Avoid excessive water as it can damage the wood. Polish wooden electronics occasionally to maintain its shine and protect the surface. For leather electronics, use a leather conditioner to keep it supple and prevent cracking.\n\nFabric electronics requires regular vacuuming to remove dust and debris. For stains, act quickly and use appropriate fabric cleaners. Test any cleaner on a hidden area first to ensure it doesn't damage the fabric. Metal electronics should be wiped down regularly and checked for rust. Apply a protective coating if rust appears.",
     },
   },
   ar: {
-    "buy-used-furniture-safely": {
+    "buy-used-electronics-safely": {
       title: "كيفية شراء الأثاث المستعمل بأمان",
       date: "15 أكتوبر 2024",
       content:
@@ -41,7 +41,7 @@ const blogPosts = {
       content:
         "يمكن لوحدات تكييف الهواء المستعملة أن توفر لك أموالاً كبيرة مع توفير أداء تبريد ممتاز. عند التسوق لشراء وحدات تكييف مستعملة، تحقق من سعة التبريد (تصنيف BTU) لمطابقة حجم غرفتك. تحقق من أن الوحدة تعمل بشكل صحيح وتم صيانتها بشكل صحيح. ابحث عن وحدات من العلامات التجارية الموثوقة المعروفة بمتانتها. قارن الأسعار عبر عدة بائعين للعثور على أفضل العروض. فكر في عمر الوحدة والعمر الافتراضي المتبقي. تحقق مما إذا كانت الوحدة تتضمن دعم التثبيت. اسأل عن تغطية الضمان وسياسات الإرجاع. تصنيفات كفاءة الطاقة مهمة للتوفير على المدى الطويل.\n\nفهم تصنيفات BTU ضروري لاختيار وحدة تكييف مناسبة. القاعدة العامة هي الحصول على 20 BTU لكل قدم مربع من المساحة. بالنسبة لغرفة بمساحة 300 قدم مربع، ستحتاج إلى حوالي 6000 وحدة حرارية بريطانية. ومع ذلك، يمكن لعوامل مثل ارتفاع السقف والعزل والتعرض للشمس أن تؤثر على هذا الحساب.\n\nعند تقييم الوحدات المستعملة، اسأل عن سجل الصيانة. الوحدات التي تم صيانتها بانتظام تميل إلى أن تستمر لفترة أطول وتعمل بشكل أفضل.",
     },
-    "furniture-care-guide": {
+    "electronics-care-guide": {
       title: "دليل العناية بالأثاث",
       date: "5 أكتوبر 2024",
       content:

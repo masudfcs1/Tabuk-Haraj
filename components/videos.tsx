@@ -5,7 +5,7 @@ interface VideosProps {
 const translations = {
   en: {
     title: "Video Showcase",
-    description: "Watch our latest furniture collections and customer testimonials",
+    description: "Watch our latest electronics collections and customer testimonials",
   },
   ar: {
     title: "عرض الفيديوهات",
@@ -35,7 +35,7 @@ export default function Videos({ language }: VideosProps) {
               className="relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition group cursor-pointer bg-black h-80"
             >
               <img
-                src={`/furniture-video-.jpg?height=400&width=600&query=furniture-video-${video.id}`}
+                src={`/electronics-video-.jpg?height=400&width=600&query=electronics-video-${video.id}`}
                 alt={video.title}
                 className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition"
               />
