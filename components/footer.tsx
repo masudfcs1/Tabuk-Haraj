@@ -5,7 +5,7 @@ interface FooterProps {
 const translations = {
   en: {
     company: "Tabuk Haraj",
-    description: "Your trusted partner for buying and selling used electronics in Tabuk",
+    description: "Your trusted partner for buying and selling used electronics and furnitures in Tabuk",
     quickLinks: "Quick Links",
     contact: "Contact",
     phone: "+966 0562036954",

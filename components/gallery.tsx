@@ -13,7 +13,7 @@ const translations = {
   },
 };
 
-// Static array of electronics images with real placeholder URLs
+// Static array of electronics and furnitures images with real placeholder URLs
 const electronicsImages = [
   {
     id: 1,

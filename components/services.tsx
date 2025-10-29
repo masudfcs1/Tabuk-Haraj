@@ -8,12 +8,12 @@ const translations = {
     services: [
       {
         title: "Buy Used electronics",
-        description: "We buy all types of used electronics at the best prices",
+        description: "We buy all types of used electronics and furnitures at the best prices",
         icon: "🛋️",
       },
       {
         title: "Sell Used electronics",
-        description: "Sell your electronics quickly and easily with us",
+        description: "Sell your electronics and furnitures quickly and easily with us",
         icon: "💰",
       },
       {
@@ -28,7 +28,7 @@ const translations = {
       },
       {
         title: "Office electronics",
-        description: "Complete office electronics solutions",
+        description: "Complete office electronics and furnitures solutions",
         icon: "🏢",
       },
       {

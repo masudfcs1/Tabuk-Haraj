@@ -7,7 +7,7 @@ interface VideosProps {
 const translations = {
   en: {
     title: "Video Showcase",
-    description: "Watch our classic electronics collections and customer testimonials",
+    description: "Watch our classic electronics and furnitures collections and customer testimonials",
     close: "Close"
   },
   ar: {
@@ -29,7 +29,7 @@ export default function Videos({ language }: VideosProps) {
      videoSrc: "/video-1.mp4",    },
     { 
       id: 2, 
-      title: language === "en" ? "Classic Electronics Tour" : "جولة الأجهزة الكلاسيكية",
+      title: language === "en" ? "Classic electronics and furnitures Tour" : "جولة الأجهزة الكلاسيكية",
      videoSrc: "/video-2.mp4",  
     },
     { 

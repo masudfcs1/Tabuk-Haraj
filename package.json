@@ -2,7 +2,7 @@
   "name": "tabuk-haraj-clone",
   "version": "1.0.0",
   "private": true,
-  "description": "Tabuk Haraj - Used electronics Marketplace with Bilingual Support",
+  "description": "Tabuk Haraj - Used electronics and furnitures Marketplace with Bilingual Support",
   "scripts": {
     "build": "next build",
     "dev": "next dev",

@@ -12,11 +12,11 @@ const translations = {
     posts: [
       {
         id: "buy-used-electronics-safely",
-        title: "How to Buy Used electronics Safely",
+        title: "How to Buy Used electronics and furnitures Safely",
         excerpt: "Tips and tricks for purchasing quality used electronics...",
         date: "Oct 15, 2024",
         content:
-          "When buying used electronics, it's important to inspect items carefully for damage, wear, and structural integrity. Look for signs of bed bugs, water damage, and stains. Always test drawers, hinges, and moving parts. Negotiate prices fairly and ask about the electronics's history. Consider delivery options and return policies. Buy from reputable sellers with good reviews. Check for any recalls on specific electronics items. Take measurements to ensure the electronics fits your space. Ask about the original purchase date and warranty information.",
+          "When buying used electronics, it's important to inspect items carefully for damage, wear, and structural integrity. Look for signs of bed bugs, water damage, and stains. Always test drawers, hinges, and moving parts. Negotiate prices fairly and ask about the electronics's history. Consider delivery options and return policies. Buy from reputable sellers with good reviews. Check for any recalls on specific electronics and furnitures items. Take measurements to ensure the electronics and furnitures fits your space. Ask about the original purchase date and warranty information.",
       },
       {
         id: "best-prices-used-ac-units",
@@ -28,11 +28,11 @@ const translations = {
       },
       {
         id: "electronics-care-guide",
-        title: "electronics Care Guide",
-        excerpt: "Learn how to maintain your used electronics properly...",
+        title: "electronics and furnitures Care Guide",
+        excerpt: "Learn how to maintain your used electronics and furnitures properly...",
         date: "Oct 5, 2024",
         content:
-          "Proper maintenance extends the life of your used electronics significantly. Dust regularly with a soft cloth to prevent buildup. Use appropriate cleaners for different materials - wood, leather, fabric, and metal each require specific care. Avoid direct sunlight to prevent fading and damage. Keep electronics away from heat sources and moisture. Rotate cushions regularly for even wear. Repair small issues immediately to prevent larger problems. Use protective covers for high-traffic areas. Clean spills immediately to prevent staining. Store electronics properly if not in use. Consider professional cleaning for valuable pieces.",
+          "Proper maintenance extends the life of your used electronics and furnitures significantly. Dust regularly with a soft cloth to prevent buildup. Use appropriate cleaners for different materials - wood, leather, fabric, and metal each require specific care. Avoid direct sunlight to prevent fading and damage. Keep electronics and furnitures away from heat sources and moisture. Rotate cushions regularly for even wear. Repair small issues immediately to prevent larger problems. Use protective covers for high-traffic areas. Clean spills immediately to prevent staining. Store electronics and furnitures properly if not in use. Consider professional cleaning for valuable pieces.",
       },
     ],
   },

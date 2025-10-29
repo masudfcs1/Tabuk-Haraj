@@ -4,7 +4,7 @@ interface HeroProps {
 
 const translations = {
   en: {
-    title: "Buy & Sell Used electronics in Tabuk",
+    title: "Buy & Sell Used electronics and furnitures in Tabuk",
     subtitle: "Your trusted partner for quality used electronics, appliances, and home goods",
     cta: "Get Started",
   },
