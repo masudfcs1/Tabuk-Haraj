@@ -4,12 +4,12 @@ interface HeroProps {
 
 const translations = {
   en: {
-    title: "Buy & Sell Used electronics and furnitures in Tabuk",
+    title: "Buy Used Electronics and Furnitures in Tabuk",
     subtitle: "Your trusted partner for quality used electronics, appliances, and home goods",
     cta: "Get Started",
   },
   ar: {
-    title: "شراء وبيع الأثاث المستعمل بتبوك",
+    title: "شراء الأجهزة الإلكترونية والأثاث المستعمل في تبوك",
     subtitle: "شركتك الموثوقة للأثاث المستعمل والأجهزة الكهربائية والعفش المنزلي",
     cta: "ابدأ الآن",
   },

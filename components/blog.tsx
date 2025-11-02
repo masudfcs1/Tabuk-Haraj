@@ -16,7 +16,7 @@ const translations = {
         excerpt: "Tips and tricks for purchasing quality used electronics...",
         date: "Oct 15, 2024",
         content:
-          "When buying used electronics, it's important to inspect items carefully for damage, wear, and structural integrity. Look for signs of bed bugs, water damage, and stains. Always test drawers, hinges, and moving parts. Negotiate prices fairly and ask about the electronics's history. Consider delivery options and return policies. Buy from reputable sellers with good reviews. Check for any recalls on specific electronics and furnitures items. Take measurements to ensure the electronics and furnitures fits your space. Ask about the original purchase date and warranty information.",
+          "When buying used electronics, it's important to inspect items carefully for damage, wear, and structural integrity. Look for signs of bed bugs, water damage, and stains. Always test drawers, hinges, and moving parts. Negotiate prices fairly and ask about the electronics's history. Consider delivery options and return policies. Buy from reputable with good reviews. Check for any recalls on specific electronics and furnitures items. Take measurements to ensure the electronics and furnitures fits your space. Ask about the original purchase date and warranty information.",
       },
       {
         id: "best-prices-used-ac-units",
@@ -24,7 +24,7 @@ const translations = {
         excerpt: "Find the best deals on used air conditioners in Tabuk...",
         date: "Oct 10, 2024",
         content:
-          "Used air conditioning units can save you significant money while still providing excellent cooling performance. When shopping for used AC units, check the cooling capacity (BTU rating) to match your room size. Verify that the unit is in working condition and has been properly maintained. Look for units from reputable brands known for durability. Compare prices across multiple sellers to find the best deals. Consider the age of the unit and remaining lifespan. Check if the unit includes installation support. Ask about warranty coverage and return policies. Energy efficiency ratings are important for long-term savings.",
+          "Used air conditioning units can save you significant money while still providing excellent cooling performance. When shopping for used AC units, check the cooling capacity (BTU rating) to match your room size. Verify that the unit is in working condition and has been properly maintained. Look for units from reputable brands known for durability. Compare prices across multiple to find the best deals. Consider the age of the unit and remaining lifespan. Check if the unit includes installation support. Ask about warranty coverage and return policies. Energy efficiency ratings are important for long-term savings.",
       },
       {
         id: "electronics-care-guide",

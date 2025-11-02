@@ -11,19 +11,15 @@ const translations = {
         description: "We buy all types of used electronics and furnitures at the best prices",
         icon: "🛋️",
       },
-      {
-        title: "Sell Used electronics",
-        description: "Sell your electronics and furnitures quickly and easily with us",
-        icon: "💰",
-      },
+
       {
         title: "Electrical Appliances",
-        description: "Buy and sell used electrical appliances",
+        description: "Buy used electrical appliances",
         icon: "⚡",
       },
       {
         title: "Air Conditioners",
-        description: "Specialized in buying and selling used AC units",
+        description: "Specialized in buying used AC units",
         icon: "❄️",
       },
       {

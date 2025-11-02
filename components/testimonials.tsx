@@ -13,7 +13,7 @@ const translations = {
       },
       {
         name: "Fatima Al-Shammari",
-        text: "Very professional team. They helped me sell my electronics and furnitures quickly.",
+        text: "Very professional team. They helped me my electronics and furnitures quickly.",
         rating: 5,
       },
       {

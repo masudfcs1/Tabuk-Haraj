@@ -6,7 +6,7 @@ const translations = {
   en: {
     title: "About Tabuk Haraj",
     description:
-      "Welcome to Tabuk Haraj, your specialized company for buying and selling used electronics. We are one of the most important and best stores and showrooms for buying and selling home and office electronics, electrical appliances, used air conditioners, and majlis electronics and furnitures in Tabuk.",
+      "Welcome to Tabuk Haraj, your specialized company for buying used electronics. We are one of the most important and best stores and showrooms for buying home and office electronics, electrical appliances, used air conditioners, and majlis electronics and furnitures in Tabuk.",
     features: ["Best Prices", "Quality Assurance", "Fast Service", "Professional Team"],
   },
   ar: {
@@ -27,7 +27,13 @@ export default function About({ language }: AboutProps) {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <img src="/hero-1.jpeg" alt="Showroom" className="rounded-lg shadow-lg" />
+            {/* <img src="/hero-1.jpeg" alt="Showroom" className="rounded-lg shadow-lg" /> */}
+             <video 
+                controls 
+                autoPlay 
+                className="w-full h-auto max-h-[70vh] rounded"
+                src='/video-1.mp4'
+              ></video>
           </div>
           <div>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">{t.description}</p>
