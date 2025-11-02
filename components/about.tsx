@@ -32,7 +32,7 @@ export default function About({ language }: AboutProps) {
                 controls 
                 autoPlay 
                 className="w-full h-auto max-h-[70vh] rounded"
-                src='/video-1.mp4'
+                src='/video-4.mp4'
               ></video>
           </div>
           <div>

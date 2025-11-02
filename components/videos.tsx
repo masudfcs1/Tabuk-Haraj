@@ -112,7 +112,6 @@ export default function Videos({ language }: VideosProps) {
                 className="w-full h-auto max-h-[70vh] rounded"
                 src={selectedVideo}
               >
-                Your browser does not support the video tag.
               </video>
             </div>
           </div>

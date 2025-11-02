@@ -5,7 +5,12 @@ import { MessageCircle } from "lucide-react"
 export default function WhatsAppButton() {
   // const phoneNumber = "8801335625127"
   const phoneNumber = "8801831621815"
-  const message = "Hello, I am interested in your electronics and furnitures services."
+  const message = `
+شراء أثاث وأجهزة إلكترونية مستعملة في تبوك
+
+أشتري مكيفات، ثلاجات، غسالات، غرف نوم، مطابخ، كنب، وجميع أنواع الأثاث. للتواصل 0562036954
+
+`
 
   const handleWhatsAppClick = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
@@ -23,3 +28,5 @@ export default function WhatsAppButton() {
     </button>
   )
 }
+
+
