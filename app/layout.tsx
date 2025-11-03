@@ -1,17 +1,82 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
-
 export const metadata: Metadata = {
-  title: "Tabuk Haraj - شراء وبيع الأثاث المستعمل",
-  description: "شركة متخصصة في شراء وبيع الأثاث المستعمل بتبوك | Buy and Sell Used electronics and furnitures in Tabuk",
+  title: {
+    default: "Tabuk Haraj – تابوك هراج | Buy & Sell Used Furniture & Electronics in تبوك",
+    template: "%s | Tabuk Haraj",
+  },
+  description:
+      "Trusted service to buy and sell used furniture & electronics in Tabuk 🇸🇦 | خدمة موثوقة لشراء وبيع الأثاث والإلكترونيات المستعملة في تبوك. Fair prices • Fast pickup • Easy process.",
+
+  keywords: [
+    // English keywords
+    "buy used furniture Tabuk",
+    "sell used electronics Tabuk",
+    "used furniture buyer Tabuk",
+    "second-hand electronics Saudi Arabia",
+    "furniture haraj Tabuk",
+    "sell old sofa Tabuk",
+    "used home appliances Tabuk",
+      '+966 0562036954',
+      "0562036954",
+
+    // Arabic keywords
+    "شراء أثاث مستعمل تبوك",
+    "بيع إلكترونيات مستعملة تبوك",
+    "هراج أثاث تبوك",
+    "شركة شراء أثاث قديم تبوك",
+    "بيع أثاث منزلي مستعمل",
+    "تاجر أثاث مستعمل تبوك",
+    "شراء كنب مستعمل تبوك"
+  ],
+
+  authors: [{ name: "Tabuk Haraj Team | فريق تابوك هراج" }],
+  creator: "Tabuk Haraj | تابوك هراج",
+  publisher: "Tabuk Haraj | تابوك هراج",
+
+  alternates: {
+    canonical: "https://www.tabukharaj.com", // 👈 Replace with your real domain
+    languages: {
+      "en-SA": "https://www.tabukharaj.com/en",
+      "ar-SA": "https://www.tabukharaj.com/ar",
+    },
+  },
+
+  openGraph: {
+    title: "Tabuk Haraj – تابوك هراج | Used Furniture & Electronics Marketplace in Tabuk",
+    description:
+        "Buy or sell used furniture & electronics in Tabuk with fair prices and instant pickup 🇸🇦 | اشترِ أو بعْ أثاثك وإلكترونياتك المستعملة في تبوك بأسعار عادلة واستلام فوري.",
+    url: "https://www.tabukharaj.com",
+    siteName: "Tabuk Haraj | تابوك هراج",
+    locale: "ar-SA", // Primary audience is Arabic, but content is bilingual
+    type: "website",
+    images: [
+      {
+        url: "https://www.tabukharaj.com/og-image.jpg", // 👈 Add a high-quality OG image
+        width: 1200,
+        height: 630,
+        alt: "Tabuk Haraj – Used Furniture & Electronics in Tabuk | تابوك هراج – أثاث وإلكترونيات مستعملة",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Tabuk Haraj – تابوك هراج | Sell Used Items in Tabuk",
+    description:
+        "Fast, fair, and easy way to sell or buy used furniture & electronics in Tabuk 🇸🇦 | طريقة سريعة وعادلة لبيع أو شراء الأثاث المستعمل في تبوك.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
   generator: "v0.app",
-}
+};
 
 export default function RootLayout({
   children,
