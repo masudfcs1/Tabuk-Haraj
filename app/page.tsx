@@ -22,7 +22,7 @@ export default function Home() {
       <About language={language} />
       <Services language={language} />
       <Gallery language={language} />
-      <Videos language={language} />
+      {/* <Videos language={language} /> */}
       <Testimonials language={language} />
       <Blog language={language} />
       <Footer language={language} />
