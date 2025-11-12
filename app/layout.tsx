@@ -38,10 +38,10 @@ export const metadata: Metadata = {
   publisher: "Tabuk Haraj | تابوك هراج",
 
   alternates: {
-    canonical: "https://www.tabukharaj.com", // 👈 Replace with your real domain
+    canonical: "https://www.tabukharaj.shop", // 👈 Replace with your real domain
     languages: {
-      "en-SA": "https://www.tabukharaj.com/en",
-      "ar-SA": "https://www.tabukharaj.com/ar",
+      "en-SA": "https://www.tabukharaj.shop",
+      "ar-SA": "https://www.tabukharaj.shop",
     },
   },
 
@@ -49,13 +49,13 @@ export const metadata: Metadata = {
     title: "Tabuk Haraj – تابوك هراج | Used Furniture & Electronics Marketplace in Tabuk",
     description:
         "Buy or sell used furniture & electronics in Tabuk with fair prices and instant pickup 🇸🇦 | اشترِ أو بعْ أثاثك وإلكترونياتك المستعملة في تبوك بأسعار عادلة واستلام فوري.",
-    url: "https://www.tabukharaj.com",
+    url: "https://www.tabukharaj.shop",
     siteName: "Tabuk Haraj | تابوك هراج",
     locale: "ar-SA", // Primary audience is Arabic, but content is bilingual
     type: "website",
     images: [
       {
-        url: "https://www.tabukharaj.com/og-image.jpg", // 👈 Add a high-quality OG image
+        url: "https://www.tabukharaj.shop/", // 👈 Add a high-quality OG image
         width: 1200,
         height: 630,
         alt: "Tabuk Haraj – Used Furniture & Electronics in Tabuk | تابوك هراج – أثاث وإلكترونيات مستعملة",

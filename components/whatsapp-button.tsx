@@ -3,8 +3,8 @@
 import { MessageCircle } from "lucide-react"
 
 export default function WhatsAppButton() {
-  // const phoneNumber = "8801335625127"
-  const phoneNumber = "8801831621815"
+  // const phoneNumber = "88013356251278801831621815"
+  const phoneNumber = "+9660562036954"
   const message = `
 شراء أثاث وأجهزة إلكترونية مستعملة في تبوك
 
