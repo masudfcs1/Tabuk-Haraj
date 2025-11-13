@@ -11,6 +11,7 @@ import Testimonials from "@/components/testimonials"
 import Blog from "@/components/blog"
 import Footer from "@/components/footer"
 import WhatsAppButton from "@/components/whatsapp-button"
+import ContactButtons from "@/components/callButton"
 
 export default function Home() {
   const [language, setLanguage] = useState<"en" | "ar">("en")
@@ -27,6 +28,7 @@ export default function Home() {
       <Blog language={language} />
       <Footer language={language} />
       <WhatsAppButton />
+      <ContactButtons/>
     </div>
   )
 }
