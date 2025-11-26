@@ -60,8 +60,8 @@ export const metadata: Metadata = {
       'furniture haraj ksa',
       'electronics haraj kingdom',
       'furniture haraj kingdom',
-      'asdf',
-      'asdf',
+      'electronics furniture haraj etc',
+      'electronics furniture haraj etc tabuk',
 
     // Arabic keywords
     "شراء أثاث مستعمل تبوك",
