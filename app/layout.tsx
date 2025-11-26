@@ -13,6 +13,23 @@ export const metadata: Metadata = {
 
   keywords: [
     // English keywords
+    'tabukharaj',
+    'tabuk haraj',
+    'tabukharaj.shop',
+    'tabuk haraj shop',
+    'tabukharaj shop',
+    'tabuk haraj.shop',
+    'tabuk haraj online',
+    'tabukharaj online',
+    'tabukharaj shop online',
+    'shop tabukharaj',
+    'tabukharaj', 'tabuk haraj','tabukharaj shop','tabuk haraj shop',
+    'used electronics Saudi Arabia',
+    "buy used furniture Saudi Arabia",
+    "sell used furniture Saudi Arabia",
+    "used electronics marketplace Tabuk",
+    "used furniture marketplace Tabuk",
+    "buy used electronics Tabuk",
     "buy used furniture Tabuk",
     "sell used electronics Tabuk",
     "used furniture buyer Tabuk",
