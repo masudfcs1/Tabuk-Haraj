@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Analytics } from "@vercel/analytics/next"
-import "../../../styles/globals.css"
+import './globals.css'
 
 export const metadata: Metadata = {
   title: {
