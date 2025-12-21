@@ -33,8 +33,8 @@ export default function Footer({ language }: FooterProps) {
   const t = translations[language]
   
   // Correct Google Maps coordinates: 28.3817236,36.5590533
-  const latitude = 28.3817236
-  const longitude = 36.5590533
+  const latitude = 28.385504
+  const longitude = 36.5585954
   
   // Direct Google Maps link (will open in Google Maps app or website)
   const directMapUrl = `https://www.google.com/maps?q=${latitude},${longitude}&z=17&hl=${language}`
