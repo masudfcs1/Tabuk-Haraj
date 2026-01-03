@@ -1,9 +1,9 @@
 "use client"
 
-import { Phone, MessageCircle } from "lucide-react"
+import { Phone } from "lucide-react"
 
 export default function ContactButtons() {
-  const phoneNumber = "+9660562036954"
+  const phoneNumber = "+966562036954"
   const message = `
 شراء أثاث وأجهزة إلكترونية مستعملة في تبوك
 
